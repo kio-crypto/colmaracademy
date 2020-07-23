@@ -1,0 +1,382 @@
+
+body {
+    font-family: sans-serif;
+    margin: 0 auto;
+    color: #727171;
+  
+}
+
+header {
+    display: block;
+    background-color:#e9c917;
+    width: 100%;
+    font-size: 1.2em;
+}
+
+.hl {
+   display: flex;
+    height: 64px;
+    align-items: center;
+    margin: 0 24px; 
+}
+
+header h3 {
+    margin-left: 0;
+}
+
+.logo {
+    width: 2em;
+}
+
+#colmar {
+font-weight: bolder;
+}
+
+#academy {
+    color: white;
+    font-weight: lighter;
+}
+
+nav, .fright {
+margin-left: auto;
+}
+
+a:hover {
+    color: peru;
+  }
+
+a {
+   text-decoration: none;  
+}
+a img{
+    display: none;
+    height: 40px;
+}
+nav a {
+    color: white;
+    margin-left: 16px; 
+ 
+}
+.auno h1, .auno p {
+    width: 70%;
+    margin-left: 16px;
+}
+.auno {
+    width: auto;
+    background-color:#e7e7cf;
+    display: flex;
+    align-items: center;
+}
+
+h1 {
+    font-weight: 800;
+    font-size: 2em;
+  
+}
+
+.pic, .keep {
+    width: 60%;
+    margin: 32px 24px;
+}
+
+.button {
+  background-color: #e9c917;  
+  border: none;
+  color: white;
+  border-radius: 3px; 
+  padding: 8px;
+  text-decoration: none;
+  width: auto;
+  display: block;
+  text-align: center;
+  font-weight: normal;
+}
+
+.button:hover {
+    background-color: burlywood;
+    color: antiquewhite;
+}
+
+.learn p {
+    line-height: 1.5em;
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+.learn {
+    width: auto;
+    display: block;
+}
+
+
+
+.picb {
+    height: auto;
+    width: 35%;
+    margin: 16px;
+
+}
+
+.od, .oc, .ogl, .nowblock, .fismablock {
+    width: 65%;
+    margin: auto;
+}
+.uno, .dos, .tres, .fisma, .now{
+    display: flex;
+    align-items: center;
+ 
+}
+.tres, .c, .fisma {
+    background-color: #e7e7cf;
+}
+
+.b {
+    width: auto;
+    display: flex;
+    
+}
+.uno {
+    margin-top: 16px;
+    border-bottom: 2px solid #e7e7cf;
+}
+
+.tres {
+    margin-bottom: 32px;
+}
+.keep img, .vid, .c img {
+    width: 100%;
+    height: auto;
+}
+
+.migi {
+    width: 40%;
+    border-left: solid #e7e7cf;
+}
+
+
+.migi h4 {
+    margin: 8px 16px;
+}
+
+.migi a {
+    color: skyblue;
+    font-weight: lighter;
+}
+
+.texto {
+    margin: 24px auto;
+}
+
+.emanuel {
+    margin-bottom: 32px;
+    font-size: 14px;
+    margin-left: 0;
+}
+
+.titul {
+    padding: 32px;
+    text-align: center;
+    margin-top: 0;
+}
+
+.softe, .cart, .design, .data, .business, .mark {
+     background-color: white;
+     display: block;
+     width: 30%;
+     margin-bottom: 32px;
+}
+
+.cursos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between; 
+  margin: 32px 72px;
+}
+
+h3, p {
+  margin: 16px;
+}
+
+.migi p {
+    margin-top: 8x;
+}
+.dmigi {
+    width: 40%;
+}
+
+.dtesis {
+    display: flex;
+    width: 100%;
+}
+
+.tesis { 
+    width: 60%;
+     margin: 0 24px 32px; 
+}
+
+ .d {
+     width: auto;
+     border-bottom: 2px solid #e7e7cf; 
+     display: block;
+ }
+
+footer {
+    height: 64px;
+    display: flex;
+    margin: 16px 24px;
+}
+
+
+
+@media only screen and (max-width: 800px) {
+nav a {
+    font-weight: bold;
+}
+ .learn ,header {
+        font-size: small;
+    }
+}
+
+
+
+@media only screen and (max-width: 320px), (orientation: portrait) {
+ 
+
+.keep, .fisma, .now, .texttesis, .c p, .c img, .fright, .logo, .tex,  #colmar, #academy {
+    display: none;
+}
+
+.picb{
+     visibility: hidden;
+}
+nav a {
+    margin: 0;
+}
+
+nav img {
+    display: flex;
+}
+
+nav {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+
+ }
+
+.pic  {
+ width: 100%;
+margin: 0;
+}
+
+.auno h1{
+    font-size: 3.5em; 
+    width: auto;
+    margin: 32px;
+}
+
+.auno p {
+    font-size: 2.5em;
+    width: auto;
+    margin: 32px;
+}
+
+.button {
+ width: auto;
+ margin: 24px auto 32px;
+font-size: 0.8em;
+}
+
+ .auno, .pic, .uno, .dos, .tres, .cursos {
+    display: flex;
+    flex-direction: column;
+    border: none;
+ }
+
+.migi {
+    margin-bottom: 32px;
+    border: none;
+    width: 100%;
+}
+
+.uno, .dos, .tres {
+    background-repeat: no-repeat;
+    margin: 1em;
+}
+
+.uno {
+    background-image: url("../images/information-orientation-mobile.jpg");
+}
+
+.dos {
+    background-image: url("../images/information-campus-mobile.jpg");
+}
+
+.tres {
+    background-image: url("../images/information-guest-lecture-mobile.jpg");
+    background-color: white;
+    
+}
+
+.uno .od, .oc, .ogl {
+    width: 100%;
+    margin-top: 64px;
+    font-size: 1.5em;
+}
+
+.c {
+    background-color: white;
+    border-top: thin solid #e7e7cf; 
+    border-bottom: thin solid #e7e7cf; 
+    width: 100%;
+}
+
+.titul {
+    padding: 0;
+    font-size: 2.5em;
+    margin: 32px auto 16px;
+
+}
+
+.cursos {
+   width: auto;
+   margin: 16px  16px 32px;
+}
+
+.softe, .cart, .design, .data, .business, .mark {
+    background-color: #e7e7cf;
+    width: 100%;
+    margin: 8px auto;
+}
+
+.c h3 {
+    margin: 16px auto 24px 16px;
+    font-size: 1.7em;
+}
+
+
+footer {
+    margin: 24px 0 0;
+}
+
+.foot {
+    margin: 16px;
+}
+
+.vid {
+    width: 100%;
+    height: auto;
+    margin: 0;
+    border-bottom: solid #e7e7cf;
+    
+}
+
+.d { 
+    border-bottom: hidden;
+}
+
+.tesis {
+    margin: 0;
+    width: auto;
+}
+}
